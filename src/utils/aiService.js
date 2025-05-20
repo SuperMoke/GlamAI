@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const OPENROUTER_API_KEY =
-  "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";
+  "API_KEY";
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 export const analyzeFaceWithAI = async (base64Image) => {
